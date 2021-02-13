@@ -1,0 +1,7 @@
+@EndUserText.label: 'Litteral Condition'
+@MappingRole: true
+define role ZRISHI_CDS_DCL_EG2 {
+   grant select on
+   ZRISHI_CDS_DCL_EG2
+   where SalesOrdertype = 'TA';                     
+}

@@ -1,0 +1,10 @@
+@EndUserText.label: 'Reuse DCL'
+@MappingRole: true
+define role ZRISHI_CDS_DCL_EG4 {
+    grant
+        select
+            on
+                ZRISHI_CDS_DCL_EG4
+                    where inheriting conditions from entity ZRISHI_CDS_DCL_EG3;
+                        
+}

@@ -1,0 +1,6 @@
+@EndUserText.label: 'DCL file for ZRISHI_CDS_DCL_EG1'
+@MappingRole: true
+define role ZRISHI_CDS_DCL_EG1 {
+    grant select on ZRISHI_CDS_DCL_EG1;
+                        
+}

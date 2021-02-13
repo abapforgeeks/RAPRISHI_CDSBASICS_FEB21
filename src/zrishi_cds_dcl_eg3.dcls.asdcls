@@ -1,0 +1,8 @@
+@EndUserText.label: 'PFCG in DCL File'
+@MappingRole: true
+define role ZRISHI_CDS_DCL_EG3 {
+   grant select on
+                 ZRISHI_CDS_DCL_EG3
+                 where
+                 ( SalesOrdertype ) = aspect pfcg_auth( zrishi_sd,auart,activity='03');       
+}
